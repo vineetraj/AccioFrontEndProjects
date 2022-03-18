@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* header ko right se start karne k liye */
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+/* links inside header */
+.header a{
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header span:hover{
+    cursor: pointer;
+}
+
+/* header ko sahi se karne k liye nhi to 
+right m hi rahega magar upar niche aayega*/
+.header_right{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+/* apps aur login k beech dist theek karne k liye */
+.header_right .header_apps{
+    margin-right: 10px;
+}
+
+.mainbody{
+    flex: 1;
+    /*
+    flex: <positive-number>
+Equivalent to flex: <positive-number> 1 0. 
+Makes the flex item flexible and sets the flex basis to zero, 
+resulting in an item that receives 
+the specified proportion of the free 
+space in the flex container.
+If all items in the flex container use this pattern, 
+their sizes will be proportional to the specified flex factor.
+    */
+    display: flex;
+    margin-top: 12%;
+    flex-direction: column;
+}
+
+.mainbody img{
+    object-fit:contain;
+    height: 100px;
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 560px;
+}
+
+.search_bar input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.search_buttons{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.search_buttons button{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
