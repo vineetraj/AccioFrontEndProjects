@@ -1,0 +1,109 @@
+body {
+    background-color:rgb(0, 255, 157);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product__info {
+    position: relative;
+    width: 400px;
+    align-items: center;
+    background-color: white;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.controls {
+    color: white;
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+}
+
+.product {
+    color: rgba(49, 46, 46, 0.753);
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    display: flex;
+    color: rgba(236, 11, 11, 0.747);
+    font-size: 25px;
+    align-items: center;   
+}
+
+.product__info .price > span {
+    font-size: 90px;
+}
+
+h3 {
+    color: rgba(139, 133, 133, 0.918);
+}
+
+.variant h3 {
+    display: flex;
+}
+
+.variant li {
+    display: inline-flex;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+.buy--btn {
+    display: flex;
+    align-items: center;  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(219, 43, 43, 0.959);
+    outline: none;
+    border: none;
+}
+
+.product__photo {
+    position: absolute;
+    left: 210px;
+    top: 40px;
+    z-index: 10;
+    height: 500px;
+    width: 325px;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.photo-main .img {
+    position: absolute;
+    right:50px;
+}
+
+.controls + img {
+    position:relative;
+    right: 80px;
+}
+
+.photo-album {
+    display: flex;
+}
+
+.photo-main {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgb(81, 211, 25) 100%);
+}
+
+.photo-album li {
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+}
