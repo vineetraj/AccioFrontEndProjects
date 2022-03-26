@@ -1,0 +1,157 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee&family=Josefin+Sans&family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+* {
+  box-sizing: border-box;
+  /*allows to include padding & border in total width and height*/
+}
+
+:root {
+  --Sniglet-font: "Shadows Into Light", cursive;
+  --alfa: "Alfa Slab One", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #faf6f8, #000000);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header {
+  background: var(--bggradient);
+}
+
+header a {
+  font-family: var(--alfa);
+  font-size: 0.9em;
+  color: rgb(0, 0, 0);
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .container .col-md-7 {
+  font-family: "Rubik", sans-serif;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+header .navbar-toggler {
+  color: #0164e6;
+}
+
+/* abilities section */
+.card-body i {
+  font-size: 5em;
+  padding: 5px;
+}
+
+.abilities .card-body {
+  font-family: var(--Lobster);
+}
+
+/* app download section */
+.containerD {
+  background-color: #000000;
+  padding: 3%;
+  color: white;
+  font-family: var(--Patua);
+}
+
+/* download button section */
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* gadgets section */
+#gadgets {
+  font-family: "Bungee", sans-serif;
+  padding: 50px;
+  text-align: center;
+}
+
+#gadgets .card {
+  border: 2px;
+  border-color: white;
+  border-style: double;
+  border-width: 1px;
+  border-color: black;
+  margin: 7px;
+  padding: 7px;
+}
+
+/*caraousel section*/
+.testimonials {
+  text-align: center;
+  background-color: #1a1919;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press section */
+.press_img>img {
+  padding: 2%;
+}
+
+#press_coverage {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* footer section*/
+footer {
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 10em;
+}
+
+footer li {
+  display: inline-block;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin: 15px;
+}

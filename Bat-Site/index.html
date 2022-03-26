@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bat-Site</title>
+    <link rel="icon" type="image" href="favicon.webp" />
+    <link rel="stylesheet" href="css/batman.css">
+
+    <!-- font-awesome import-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- bootstrap import-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <!-- commented b/c toggle not working in bootstrap 5 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+        </script> -->
+
+</head>
+
+<body>
+
+    <!-- header  section -->
+    <header>
+        <!-- navbar section -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/brand.webp" width="30" height="30" alt="brand_logo">
+                        Batman
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gadgets">My Gadgets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#download">Download</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--container for image & text-->
+        <div class="container">
+            <div class="row text-center">
+                <!-- about batman -->
+                <div class="col-md-7 col-sm-12">
+                    <h6>Citizens of Gotham...</h6>
+                    <h1>I'm Batman</h1>
+                    <p>
+                        I am not a hero. I'm a silent guardian, a watchful protector, a Dark Knight!
+                    </p>
+
+                    <p>
+                        I have sworn vengeance against criminals after witnessing the murder of
+                        my parents Thomas and Martha, a vendetta tempered with the ideal of justice. I have
+                        trained myself physically and intellectually in the League of Shadows, under Ra's Al Ghul.
+                    </p>
+                </div>
+
+                <!-- batman image -->
+                <div class="col-md-5 col-sm-12 mt-5">
+                    <img src="https://freepngimg.com/save/9882-batman-transparent-png/427x715" alt="batman_portrait">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="containerA ">
+
+
+            <div class="abilities row text-center">
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-gem"></i>
+                            <h3>No fear of kryptonite. Watch it Superman!</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-user-ninja"></i>
+                            <h3>Skilled martial artist and hand-to-hand combatant.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-horse-head"></i>
+                            <h3>Genius-level intellect and Expert detective.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-sack-dollar"></i>
+                            <h3>Billionare ! Need I say more ?</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- testimonials section -->
+        <div class="testimonials">
+
+            <!-- caraousel controller -->
+            <div class="container mx-auto">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <h2>"Why so serious ? Let's put a smile on this face. Keep smiling...he he he"
+                            </h2>
+                            <img class="testimonial_img" src="assets/joker.webp" alt="joker_img">
+                            <em>Joker</em>
+                        </div>
+                        <div class="carousel-item">
+                            <h2>"Riddle me this: I have a head, a tail, but never any legs. Do you know what I am?"</h2>
+                            <img src="assets/riddler.webp" class="testimonial_img" alt="riddler_img">
+                            <em>Riddler</em>
+                        </div>
+                        <div class="carousel-item">
+                            <h2>"You Either Die A Hero, Or You Live Long Enough To See Yourself Become The Villain"</h2>
+                            <img src="assets/twoface.webp" class="testimonial_img" alt="twoface_img">
+                            <em>Two-Face</em>
+                        </div>
+                        <div class="carousel-item">
+                            <h2>"There is nothing to fear but fear itself. I respect the mind's power over the body,
+                                it's why I do what I do"</h2>
+                            <img src="assets/Scarecrow.webp" class="testimonial_img" alt="scarecrow_img">
+                            <em>Scarecrow</em>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- press coverage -->
+            <div class="press_coverage mt-5 mb-5 text-center">
+                <h2>Catch me in action at :</h2>
+                <p class="container-fluid press_img">
+                    <img src="assets/press1.png" alt="press1">
+                    <img src="assets/press2.jpg" alt="press2">
+                    <img src="assets/press3.jpg" alt="press3">
+                </p>
+            </div>
+
+        </div>
+
+        <!-- class containing all cards -->
+        <div id="gadgets">
+            <h2>
+                Explore my hi-tech gadgets..
+            </h2>
+            <p>
+                The BTS of crime fighting
+            </p>
+            <div class="card-group">
+                <div class="card text-center">
+                    <img src="https://www.renderhub.com/yigityesilyayla/dark-knight-batarang/dark-knight-batarang-03.jpg"
+                        class="card-img-top" alt="batrang">
+                    <div class="card-body">
+                        <h5 class="card-title">Batrang</h5>
+                        <p class="card-text">
+                            A batarang is a roughly bat-shaped throwing weapon.
+                            The name is a portmanteau of bat and boomerang, and was originally spelled baterang.
+                        </p>
+                        <a href="#" class="btn btn-dark px-5 mb-1">Know More</a>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <img src="https://robbreport.com/wp-content/uploads/2022/02/Electric_Batmobile6.jpg?w=1000"
+                        class="card-img-top" alt="batmobile_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Batmobile</h5>
+                        <p class="card-text">
+                            Batmobile is both a heavily armored tactical assault vehicle and a personalized
+                            custom-built pursuit and capture vehicle that is used in fight against crime.
+                        </p>
+                        <a href="#" class="btn btn-dark px-5 mb-1">Know More</a>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iW2_wssqohuI/v0/-1x-1.jpg"
+                        class="card-img-top" alt="batsuit_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Batsuit</h5>
+                        <p class="card-text">
+                            Every aspect of the suit's design serves a critical function.
+                            It conceals identity and strikes fear into the criminals,
+                            the crime and the evil of this world.
+                        </p>
+                        <a href="#" class="btn btn-dark px-5 mb-1">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- app download section -->
+        <div class="containerD" id="download">
+            <div class="row text-center">
+                <!-- about app -->
+                <div class="col-md-7 col-sm-12">
+                    <h4>
+                        <p>
+                            Step into the shadows and experience the twisted world of Gotham in a way
+                            that brings the fractured persona of the Dark Knight
+                            in a sinister, new way.
+                        </p>
+                    </h4>
+                    <h2>
+                        <p>Download the game now !</p>
+                    </h2>
+                    <!-- download buttons -->
+                    <button type="button" class="btn btn-dark btn-lg px-5 py-2" href="#">
+                        <i class="fa-brands fa-apple"></i> Download
+                    </button>
+                    <button type="button" class="btn btn-light btn-outline-dark btn-lg px-5 py-2" href="#">
+                        <i class="fa-brands fa-google-play"></i> Download
+                    </button>
+                </div>
+
+                <!-- app image -->
+                <div class="col-md-5 col-sm-12 mt-5">
+                    <img src="https://store-images.s-microsoft.com/image/apps.27146.14284247504089631.bbcefe1d-0a37-41ce-82d8-ca66cb17d8e7.ae76090d-4359-438b-8042-8c4d96530c9d?w=400&h=600"
+                        alt="app">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-center">
+        <div class="social" id="contact">
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram-square"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-solid fa-at"></i></li>
+        </div>
+        <p>
+            © Copyright 2022 Wayne Enterprises
+        </p>
+        <p>
+            Made with ❤ by <a href="https://github.com/vineetraj">Vineet Raj</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
