@@ -17,6 +17,10 @@
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   background: var(--bggradient);
 }
