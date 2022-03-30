@@ -131,14 +131,9 @@ header .navbar-toggler {
   padding: 5% 15%;
 }
 
-/*To Make Image Circular*/
 .carousel-item img {
-  border-radius: 50%;
-}
-
-.testimonial-img {
-  width: 10%;
-  margin: 20px;
+  border-radius: 50%; /*To Make Image Circular*/
+  margin: 10px;
 }
 
 /* press section */
