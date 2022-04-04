@@ -1,10 +1,18 @@
 body {
-    background-color:rgb(0, 255, 157);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 255, 157);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product {
+    color: rgba(49, 46, 46, 0.753);
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .product__info {
-    position: relative;
+    display: block;
+    position: absolute;
     width: 400px;
     align-items: center;
     background-color: white;
@@ -21,20 +29,15 @@ body {
     justify-content: space-between;
 }
 
-.product {
-    color: rgba(49, 46, 46, 0.753);
-    display: flex;
-    justify-content: center;
-}
 
 .price {
     display: flex;
     color: rgba(236, 11, 11, 0.747);
     font-size: 25px;
-    align-items: center;   
+    align-items: center;
 }
 
-.product__info .price > span {
+.product__info .price>span {
     font-size: 90px;
 }
 
@@ -54,10 +57,17 @@ h3 {
     border-width: 2px;
 }
 
+.variant li:hover {
+    transform: scale(1.2);
+    transition: all .4s ease-in-out;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
 .buy--btn {
     display: flex;
-    align-items: center;  
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     border-radius: 10px;
     font-size: 20px;
@@ -69,8 +79,9 @@ h3 {
 }
 
 .product__photo {
+    display: block;
     position: absolute;
-    left: 210px;
+    margin-right: 45%;
     top: 40px;
     z-index: 10;
     height: 500px;
@@ -83,12 +94,16 @@ h3 {
 
 .photo-main .img {
     position: absolute;
-    right:50px;
+    right: 50px;
 }
 
-.controls + img {
-    position:relative;
+.controls+img {
+    position: relative;
     right: 80px;
+}
+
+.controls+img:hover {
+    transform: scale(110%);
 }
 
 .photo-album {
@@ -96,8 +111,8 @@ h3 {
 }
 
 .photo-main {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgb(81, 211, 25) 100%);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgb(81, 211, 25) 100%);
 }
 
 .photo-album li {
@@ -106,4 +121,11 @@ h3 {
     border-style: solid;
     border-color: lightgray;
     border-width: 2px;
+}
+
+.photo-album li:hover {
+    transform: scale(1.2);
+    transition: all .4s ease-in-out;
+    border: 1px solid black;
+    cursor: pointer;
 }
